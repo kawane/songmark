@@ -2,7 +2,7 @@
 
 Songmark is a dsl for song. It's a text format to display lyrics and chords. It can easily be displayed in any text editor.
 
-Songmark files have the **.song** extension.
+Songmark files have the **.song** extension. The mime type **text/plain** or **text/song** can be used for applications.
 
 #### Features:
  - simple edit lyrics and chords (using chord symbols)
