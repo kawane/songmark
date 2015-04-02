@@ -94,9 +94,9 @@ var result = chords.every(function(chord) {
 ```
 
 #### Usage
-You may just want to edit a new song with **.song** extension like **satisfaction.song** in simple text editor like: notepad, sublime text or notepad++ or any text editor.
+You may just want to edit a new song with **.song** extension like **satisfaction.song** in a simple text editor like: notepad, sublime text or notepad++ or any text editor. NB: Configure the editor in UTF-8 encoding
 
-You will samples in this repos if you have some troubles
+You will find samples songs in this repos.
 
 A **syntax highlighter** for github and sublime text
 
