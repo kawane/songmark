@@ -20,12 +20,13 @@ Be careful to configure your text editor to encode character in **UTF-8** if you
 #### Syntax
 
 ```
-=== L'autre finistère (Les innocents)
+L'autre finistère
 
-album = Fous à lier
-year = 1992
-tone = G
-video = http://www.youtube.com/watch?v=LkbzNlfYuiI
+(artist:Les innocents)
+(album: Fous à lier)
+(year: 1992)
+(tone: G)
+(video: http://www.youtube.com/watch?v=LkbzNlfYuiI)
 
 Verse:
  G 
