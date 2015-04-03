@@ -1,6 +1,6 @@
 ### Songmark text format
 
-Songmark is a dsl for song. It's a text format to display lyrics and chords. It can easily be displayed in any text editor.
+**Songmark** is a textual language for song to help artists quickly learn new songs looking at lyrics and chords at the same time in a clean, compact and readable format. It can easily be displayed in any text editor using **fixed width font** as Courier, Courier New, Lucida Console, Monaco, and Consolas (to align chords with lyrics correctly).
 
 Songmark files have the **.song** extension. The mime type **text/plain** or **text/song** can be used for applications.
 
@@ -49,7 +49,7 @@ Chorus:
  Dans cet autre Finistère aux longues plages de silence.
 ```
 
-##### Chords line recognizer
+##### Chord regexp
 
 regexp chord:
 ```
@@ -95,7 +95,7 @@ var result = chords.every(function(chord) {
 ```
 
 #### Usage
-You may just want to edit a new song with **.song** extension like **satisfaction.song** in a simple text editor like: notepad, sublime text or notepad++ or any text editor. NB: Configure the editor in UTF-8 encoding
+You may just want to edit a new song with **.song** extension like **satisfaction.song** in a simple text editor like: notepad, sublime text or notepad++ or any text editor. NB: Configure the editor in UTF-8 encoding. You must also use a fixed width font as Courier, Courier New, Lucida Console, Monaco, and Consolas in the text editor. 
 
 You will find samples songs in this repos.
 
