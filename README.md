@@ -1,6 +1,6 @@
 # songmark
 
-Spec and samples of songmark file format.
+[Spec](Songmark.md) and samples of songmark file format.
 
-Songmark is format to represent song with lyrics, chords and metadata
+[Songmark](Songmark.md) is a format to represent song with lyrics, chords and metadata
 
