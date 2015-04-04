@@ -22,11 +22,11 @@ Be careful to configure your text editor to encode character in **UTF-8** if you
 ```
 L'autre finistère
 
-(artist:Les innocents)
-(album: Fous à lier)
-(year: 1992)
-(tone: G)
-(video: http://www.youtube.com/watch?v=LkbzNlfYuiI)
+artist:Les innocents
+album: Fous à lier
+year: 1992
+tone: G
+video: http://www.youtube.com/watch?v=LkbzNlfYuiI
 
 Verse:
  G 
