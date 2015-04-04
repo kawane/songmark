@@ -26,7 +26,7 @@ artist:Les innocents
 album: Fous à lier
 year: 1992
 tone: G
-video: http://www.youtube.com/watch?v=LkbzNlfYuiI
+link: http://www.youtube.com/watch?v=LkbzNlfYuiI
 
 Verse:
  G 
