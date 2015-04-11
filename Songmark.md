@@ -96,7 +96,7 @@ var result = chords.every(function(chord) {
 #### Metadata
 Metadata is a name value pair. 
  - Artist: artist that play this song
- - Composer: Compositor of the song
+ - Composer: Lyrics or Music Compositor of the song
  - Album: Album of the song
  - Year: Year when this song was first played
  - Tone: tone of the song
