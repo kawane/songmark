@@ -93,6 +93,14 @@ var result = chords.every(function(chord) {
     return chordreg.test(chord);
 });
 ```
+#### Metadata
+Metadata is a name value pair. 
+ - Artist: artist that play this song
+ - Composer: Compositor of the song
+ - Album: Album of the song
+ - Year: Year when this song was first played
+ - Tone: tone of the song
+ - Tempo: tempo of this song bpm
 
 #### Usage
 You may just want to edit a new song with **.song** extension like **satisfaction.song** in a simple text editor like: notepad, sublime text or notepad++ or any text editor. NB: Configure the editor in UTF-8 encoding. You must also use a fixed width font as Courier, Courier New, Lucida Console, Monaco, and Consolas in the text editor. 
