@@ -53,7 +53,7 @@ Chorus:
 
 regexp chord:
 ```
-^(C|D|E|F|G|A|B)(b|#)?(m|M|min|maj)?((sus)?(b|#)?(2|4|5|6|7|9|10|11|13)?)*(\+|aug|alt)?(\/(C|D|E|F|G|A|B))?$
+^(C|D|E|F|G|A|B)(b|#)?(m|M|min|maj)?((sus|add)?(b|#)?(2|4|5|6|7|9|10|11|13)?)*(\+|aug|alt)?(\/(C|D|E|F|G|A|B)(b|#)?)?$
 ```
 supported chords:
 
@@ -85,7 +85,7 @@ C13#11
 
 This javascript code test if every sample chords match the regexp
 ```javascript
-var chordreg = /^(C|D|E|F|G|A|B)(b|#)?(m|M|min|maj)?((sus)?(b|#)?(2|4|5|6|7|9|10|11|13)?)*(\+|aug|alt)?(\/(C|D|E|F|G|A|B))?$/;
+var chordreg = /^(C|D|E|F|G|A|B)(b|#)?(m|M|min|maj)?((sus|add)?(b|#)?(2|4|5|6|7|9|10|11|13)?)*(\+|aug|alt)?(\/(C|D|E|F|G|A|B)(b|#)?)?$/;
 var chords = "C C7 C9 C11 C13 Cmaj7 CM7 Cm7 Cmin7 Cmin7b5 Cm7/G C7sus4 C7+ C7aug C7b5 C7#11 C7b9 C7#9 C7b10 C7b9b13 C7alt C7b10b13 C13#11".split(" ");
 
 // test if every chords match the regexp
