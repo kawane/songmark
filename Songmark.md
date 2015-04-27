@@ -53,7 +53,7 @@ Chorus:
 
 regexp chord:
 ```
-^(C|D|E|F|G|A|B)(b|#)?(m|M|min|maj)?((sus|add)?(b|#)?(2|4|5|6|7|9|10|11|13)?)*(\+|aug|alt)?(\/(C|D|E|F|G|A|B)(b|#)?)?$
+^(C|D|E|F|G|A|B)(b|#)?(m|M|min|maj|dim)?((sus|add)?(b|#)?(2|4|5|6|7|9|10|11|13)?)*(\+|aug|alt)?(\/(C|D|E|F|G|A|B)(b|#)?)?$
 ```
 supported chords:
 
@@ -81,6 +81,8 @@ C7b9b13
 C7alt		
 C7b10b13
 C13#11
+Cadd9
+Cdim
 ```
 
 This javascript code test if every sample chords match the regexp
